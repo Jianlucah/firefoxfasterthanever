@@ -12,3 +12,5 @@ Place this user.js in:
 and reboot Firefox. 
 
 Enjoy your Firefox faster than ever!
+
+<h5>Thanks to <a href="http://www.hwupgrade.it/forum/member.php?u=376315">Happysurf</a> @ <a href="http://www.hwupgrade.it/forum/showthread.php?t=2735135">HWUpgrade</a></h5>
