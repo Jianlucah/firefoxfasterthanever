@@ -71,6 +71,9 @@ user_pref("browser.showQuitWarning", true);
 //Impedire l'auto play dei video HTML5
 user_pref("media.autoplay.enabled", false);
 
+//Disabilitare Pocket
+user_pref("extensions.pocket.enabled", false);
+
 //MULTIPROCESSO
 user_pref("browser.tabs.remote.autostart", true);
 user_pref("browser.tabs.remote.autostart2", true);
@@ -79,3 +82,6 @@ user_pref("extensions.e10sBlocksEnabling", false);
 //SCROLLING
 user_pref("general.smoothScroll.mouseWheel.durationMinMS", 250);
 user_pref("general.smoothScroll.mouseWheel.durationMaxMS", 250);
+
+//SICUREZZA
+user_pref("webgl.disabled", true);
