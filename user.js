@@ -10,6 +10,13 @@ user_pref("network.prefetch-next", false);
 //Disabilitare segnaposto immagini mancanti
 user_pref("browser.display.show_image_placeholders", false);
 
+//Abilitare Pipelining
+user_pref("network.http.pipelining", true);
+user_pref("network.http.pipelining.maxrequests", 8);
+
+//Velocizzare delay caricamento pagine
+user_pref("nglayout.initialpaint.delay", 100);
+
 //OTTIMIZZARE(consigliate)//
 
 //Disabilitare la modalità protetta di Flash
@@ -38,11 +45,11 @@ user_pref("browser.slowStartup.samples", 0);
 
 //PRIVACY (consigliate)//
 
-//Disabilitare il controllo dei siti
+/*//Disabilitare il controllo dei siti
 user_pref("browser.safebrowsing.enabled", false);
 user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("services.sync.prefs.sync.browser.safebrowsing.enabled", false);
-user_pref("services.sync.prefs.sync.browser.safebrowsing.malware.enabled", false);
+user_pref("services.sync.prefs.sync.browser.safebrowsing.malware.enabled", false);*/
 
 //Connessioni speculative
 user_pref("network.http.speculative-parallel-limit", 0);
@@ -60,13 +67,13 @@ user_pref("media.peerconnection.enabled", false);
 //UTILITÀ (facoltative)//
 
 //Disabilitare auto completamento urlbar
-user_pref("browser.urlbar.autoFill", false);
+/*user_pref("browser.urlbar.autoFill", false);
 
 //Aprire i risultati della barra di ricerca in una nuova scheda
 user_pref("browser.search.openintab", true);
 
 //Decidere ogni volta se salvare la sessione delle schede
-user_pref("browser.showQuitWarning", true);
+user_pref("browser.showQuitWarning", true);*/
 
 //Impedire l'auto play dei video HTML5
 user_pref("media.autoplay.enabled", false);
