@@ -1,4 +1,4 @@
-/*************** PRIVACY ***************/
+/*************** VELOCITA' ***************/
 
 //Disabilitare tutte le animazioni
 user_pref("browser.tabs.animate", false);
