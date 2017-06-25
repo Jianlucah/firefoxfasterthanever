@@ -1,4 +1,4 @@
-/*************** VELOCITA' ***************/
+/*************** OTTIMIZZARE ***************/
 
 //Disabilitare tutte le animazioni
 user_pref("browser.tabs.animate", false);
@@ -7,10 +7,11 @@ user_pref("browser.fullscreen.animate", false);
 //Disabilitare la funzione prefetch//
 user_pref("network.prefetch-next", false);
 
-/*************** OTTIMIZZARE ***************/
+//Disabilitare caricamento segnaposto immagini//
+user_pref("browser.display.show_image_placeholders", false);
 
 //Diminuire il consumo di RAM
-user_pref("browser.sessionhistory.max_total_viewers", 6);
+/* user_pref("browser.sessionhistory.max_total_viewers", 6); */
 
 //Limitare il numero di pagine memorizzate nella cronologia
 user_pref("browser.sessionhistory.max_entries", 20);
